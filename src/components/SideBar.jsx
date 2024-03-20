@@ -10,7 +10,7 @@ const SideBar = () => {
   const [activeRoute, setActiveRoute] = useState("Disscussion Fourm");
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
-    <div className="flex max-h-screen">
+    <div className="flex max-h-screen z-50">
       <div>
         <div
           className={`min-w-64 max-md:fixed duration-300 max-w-64 w-full bg-navy text-white  min-h-screen ${

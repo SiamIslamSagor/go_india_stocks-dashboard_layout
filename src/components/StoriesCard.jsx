@@ -4,7 +4,7 @@ import mountainImg from "../../public/mountain.jpg";
 const StoriesCard = () => {
   return (
     <div className="max-lg:w-full 2xl:px-20 my-2 md:my-5 p-5">
-      <div className="border">
+      <div className="border shadow-sm hover:shadow-xl duration-300">
         <div>
           <Image
             className="object-cover w-full "
