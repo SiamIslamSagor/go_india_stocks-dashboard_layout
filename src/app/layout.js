@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={inter.className}>
-        <div className="border-4 border-red-600 flex">
+        <div className="border4 border-red-600 flex">
           <SideBar />
           {children}
         </div>
