@@ -18,7 +18,9 @@ const Feed = () => {
               tab === 1 ? "bg-navy-dark border-b-4 border-red-700" : "bg-navy"
             }`}
           >
-            <h5 className="select-none">Disscussion Fourm</h5>
+            <h5 className="select-none sm:text-lg md:text-xl duration-300">
+              Disscussion Fourm
+            </h5>
           </div>
           <div
             onClick={() => setTab(2)}
@@ -26,7 +28,9 @@ const Feed = () => {
               tab === 2 ? "bg-navy-dark border-b-4 border-red-700" : "bg-navy"
             }`}
           >
-            <h5 className="select-none">Market Stories</h5>
+            <h5 className="select-none sm:text-lg md:text-xl duration-300">
+              Market Stories
+            </h5>
           </div>
         </div>
       </div>
