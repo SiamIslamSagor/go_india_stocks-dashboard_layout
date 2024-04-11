@@ -40,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 To learn more about Next.js, take a look at the following resources:
 
-- The application utilizes Tailwind CSS for styling and responsiveness. Ensure you have Tailwind CSS configured correctly in your project.
+- The application utilizes Tailwind CSS for styling and responsiveness. Ensure you have Tailwind CSS configured correctly in your Project.
 - You may need to replace `go_india_stocks-dashboard_layout` with the actual name of your project directory if it's different.
 
 ## Author
