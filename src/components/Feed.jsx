@@ -7,6 +7,7 @@ import Title from "./Title";
 let posts = new Array(9).fill(null);
 
 const Feed = () => {
+  // state
   const [tab, setTab] = useState(1);
   return (
     <div>
